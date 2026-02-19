@@ -33,10 +33,10 @@ The system is a full-stack microservice architecture designed for offline deploy
 ### Running the Full Platform (Student View)
 To launch the full Student Experience (Frontend + Backend + LLM):
 
-```bash
+```shell
 # Builds and starts all services including the React frontend
 docker compose --profile frontend up -d
-
+````
 > Run inside `/backend` directory
 
 # Service types
